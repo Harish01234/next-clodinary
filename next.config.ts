@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     domains: ['res.cloudinary.com'], // Add Cloudinary's domain for loading images
   },
   env: {
-    CLOUDINARY_CLOUD_NAME: 'df6y0s9sx', // Replace with your Cloudinary cloud name
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: 'df6y0s9sx', // Replace with your Cloudinary cloud name
   },
 
 };
